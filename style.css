@@ -1,0 +1,119 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header h1 {
+    margin-left: 110px;
+}
+
+header {
+    display: flex;
+    padding: 5px px;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+ul {
+    display: flex;
+}
+
+.nav-links {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li select {
+    border: none;
+}
+
+.nav-side-section {
+    margin-left: 290px;
+}
+
+.nav-side-section button {
+    margin-right: 20px;
+}
+
+.nav-side-section a {
+    text-decoration: none;
+    color: white;
+}
+
+.eng-button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.eng-button:hover {
+    background-color: rgb(47, 45, 45);
+}
+
+.signup-button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.signup-button:hover {
+    background-color: rgb(234, 230, 230);
+    
+}
+
+#about-nav {
+    width: 55%;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+
+#about-nav:hover {
+    background-color: rgb(47, 45, 45);
+}
+
+.about-nav-header {
+    font-weight: bold;
+}
+
+.about-nav-header:hover {
+    background-color: rgb(47, 45, 45);
+}
+
+select option {
+    background-color: white;
+    color: black;
+}
+
+.nav-links:hover {
+   background-color: rgb(47, 45, 45);
+}
+
+.nav-side-links {
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 20px;
+} 
+
+.nav-side-links:hover {
+    background-color: rgb(47, 45, 45);
+}
