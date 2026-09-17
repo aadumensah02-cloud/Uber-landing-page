@@ -52,47 +52,53 @@
 
     <main>
       <div class="hero-section">
-          <div class="hero-section-content">
-              <p>Accra, GH</p><a href="#">Change city</a>
-              <h1>Go anywhere with Uber</h1>
-              <select name="Pickup" id="pickup">
-                 <option value="#" hidden >Pickup now</option>
-                 <option value="pickup">Pickup now</option>
-                 <option value="schedule">Schedule later</option>
-              </select>
-              <div>
-                 <input list="pickup-options" id="pickup-location" type="text" placeholder="Pickup location">
-                 <datalist id="pickup-options">
-                     <option value="Kempiski"></option>
-                     <option value=""></option>
-                     <option value=""></option>
-                     <option value=""></option>
-                     <option value=""></option>
-                 </datalist>
+            <div class="hero-section-text">
+                <div class="hero-link-header">
+                   <p>Accra, GH</p>
+                   <a href="#">Change city</a>
+                </div>
 
-                 <input list="dropoff-options" id="dropoff-location" type="text" placeholder="Dropoff location">
-                 <datalist id="dropoff-options">
-                     <option value="Kempiski"></option>
-                     <option value=""></option>
-                     <option value=""></option>
-                     <option value=""></option>
-                     <option value=""></option>
-                 </datalist>
-              </div>
-              <div>
-                 <button>See prices</button>
-                 <a href="#">Log in to see your recent activity</a>
-              </div>
+                <h1>Go anywhere with <br> Uber</h1>
+    
+                <select name="Pickup" id="pickup">
+                    <option value="#" class="pickup-options-header" hidden >Pickup now</option>
+                    <option value="pickup">Pickup now</option>
+                    <option value="schedule">Schedule later</option>
+                </select>
+                <div class="header-select">
+                    <input list="pickup-options" id="pickup-location" type="text" placeholder="Pickup location">
+                    <datalist id="pickup-options">
+                        <option value="Kempiski"></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </datalist>
 
-              <div class="hero-section-img">
-                 <img src="img/uber-img1.svg" alt="">
-                 <div>
-                    <p>Ready to travel?</p>
-                    <button>Schedule Ahead</button>
-                 </div>
-              </div>
-           </div>
-      </div>
+                    <input list="dropoff-options" id="dropoff-location" type="text" placeholder="Dropoff location">
+                    <datalist id="dropoff-options">
+                        <option value="Kempiski"></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </datalist>
+                </div>
+
+                <div>
+                    <button class="header-button">See prices</button>
+                    <a href="#" class="header-button-link">Log in to see your recent activity</a>
+                </div>
+            </div>
+
+            <div class="hero-section-img">
+                <img src="img/uber-img1.svg" alt="">
+                <div class="hero-img-text">
+                 <p>Ready to travel?</p>
+                 <button>Schedule ahead</button>
+                </div>
+            </div>
+        </div>
 
       <div>
         <h2>Explore what you can do with Uber</h2>
