@@ -314,6 +314,7 @@ select option {
   height: auto;
 }
 
+
 /* log-in-section styling */
 
 .log-in-section {
@@ -368,6 +369,105 @@ select option {
 
 .log-in-text button:hover {
     background-color: rgb(47, 45, 45);
+}
+
+
+/* plan-section styling  */
+
+.plan-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.plan-section h2 {
+    margin-bottom: 30px;
+    font-size: 37px;
+
+}
+
+.plan-left {
+    background-color: rgb(157, 205, 214);
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-right: 320px;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+
+.plan-right {
+    border: 1px solid #f6f6f6;
+    border-radius: 20px;
+    padding: 15px 20px;
+    padding-left:30px;
+    margin-bottom: 70px;
+
+}
+
+.plan-right-text {
+    margin-left: 40px;
+    color: rgb(90, 89, 89);
+
+}
+
+.plan-right a {
+    color: #696969;
+    text-underline-offset: 8px;
+    text-decoration-color: black;
+    text-decoration-style: dashed ;
+}
+
+hr {
+    border-top: #f6f6f6;
+}
+
+.plan-right h2 {
+    margin-top: 0;
+    font-size: 21px;
+    margin-left: 2px;
+} 
+
+.plan-right p {
+    font-size: 17px;
+}
+
+.plan-left h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    
+}
+
+.plan-input {
+    margin-top: 12px;
+    display: flex;
+    gap: 10px;
+}
+
+.plan-section input {
+    width: 177px;
+    padding: 14px 15px;
+    border-radius: 10px;
+    border: none;
+    color: #9f9d9d;
+}
+
+.plan-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-time {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-button {
+    margin-top: 20px;
+    padding: 15px 197px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border: none;
 }
 
 
