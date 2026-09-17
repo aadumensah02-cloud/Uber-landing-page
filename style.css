@@ -504,3 +504,60 @@ hr {
 }
 
 
+/* drive-section */
+
+.drive-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.drive-section img {
+    width: 540px;
+}
+
+.drive-section h2 {
+    font-size: 37px;
+}
+
+.drive-section p {
+    font-size: 17px;
+    line-height: 23px;
+    color: rgb(63, 63, 63);
+}
+
+.drive-section button {
+    font-size: 17px;
+    padding: 13px 19px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-top: 15px;
+}
+
+.drive-section button:hover {
+    background-color: rgb(47, 45, 45);
+}
+
+.drive-section a {
+    margin-left: 20px;
+    color: black;
+    text-underline-offset: 8px;
+    margin-left: 20px;
+    color: black;
+    text-decoration-color: #e6e6e6;
+    transition: text-decoration-color 0.5s ease;
+}
+
+.drive-section a:hover {
+    text-decoration-color: black;
+}
+
+.drive-text {
+    margin-top: 130px;
+}
+
+
+
