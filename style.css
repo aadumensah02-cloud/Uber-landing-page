@@ -1,10 +1,19 @@
+/* nav bar styling */
+
 body {
     font-family: 'Quicksand', sans-serif;
     padding: 0;
     margin: 0;
 }
+
+main {
+    padding: 66px 180px;
+}
+
 header h1 {
     margin-left: 110px;
+    font-size: 23px;
+    font-weight: 100;
 }
 
 header {
@@ -117,3 +126,127 @@ select option {
 .nav-side-links:hover {
     background-color: rgb(47, 45, 45);
 }
+
+/* hero-content styling */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section-img img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.hero-link-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-link-header p {
+    font-weight: 550;
+}
+
+.hero-link-header a {
+    color: black;
+}
+
+.hero-section-text h1 {
+    font-size: 55px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+}
+
+#pickup {
+    border-radius: 20px;
+    width: 160px;
+    padding: 10px 30px;
+    background-color: rgb(246, 243, 243);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header-select {
+    display: flex;
+    flex-direction: column;
+}
+
+#pickup-location, #dropoff-location {
+    width: 400px;
+    padding: 19px 30px;
+    border-radius: 12px;
+    margin-top: 27px;
+    border: none;
+    background-color: rgb(245, 240, 248);
+    margin-top: 17px;
+}
+
+#pickup-location::placeholder, #dropoff-location::placeholder {
+    font-size: 17px;
+    color: rgb(95, 95, 96);
+}
+
+.header-button {
+    padding: 14px 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+
+.header-button:hover {
+    background-color: rgb(47, 45, 45);
+}
+
+.header-button-link {
+    text-underline-offset: 8px;
+    margin-left: 20px;
+    color: black;
+    text-decoration-color: rgb(235, 230, 230);
+    transition: text-decoration-color 0.5s ease;
+}
+
+.header-button-link:hover {
+    text-decoration-color: black;
+}
+
+.hero-img-text {
+    display: flex;
+    gap: 120px;
+    padding: 12px 15px;
+    width: 85%;
+    background: linear-gradient(160deg, #ad7066 0%, #be7b6f 50%, #be7159 100%);
+    border-radius: 15px;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    align-items: center;
+  
+}
+
+.hero-img-text button {
+    padding: 12px 15px;
+    border-radius: 30px;
+    font-size: 17px;
+    border: none;
+}
+
+.hero-img-text p {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.hero-section-img {
+  width: 500px;
+  max-width: 600px;
+  position: relative;
+}
+
