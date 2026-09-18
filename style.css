@@ -654,4 +654,51 @@ hr {
     margin-top: 22px;
 }
 
+/* footer styling */
+footer {
+    background-color: black;
+    padding: 100px 100px;
+}
 
+.uber-content {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.uber-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.uber-link {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.uber-section {
+    display: flex;
+    flex-direction: column;
+}
+
+footer span {
+    color: white;
+    font-size: 19px;
+    margin-top: 105px;
+    margin-bottom: 19px;
+}
+
+.uber-section a {
+    padding: 10px;
+}
+
+.uber-section a:hover {
+    color: #949494;
+}
