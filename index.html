@@ -10,7 +10,8 @@
 <body>
     <header>
         <h1>Uber</h1>
-        <nav>
+        <nav id="nav-links">
+            
             <ul>
                 <li>
                     <a href="#" class="nav-links">Ride</a>
@@ -20,24 +21,27 @@
                 </li>
                 <li>
                     <a href="#"  class="nav-links">Business</a>
-                </li>
+                </li> 
                 <li>
                     <a href="#"  class="nav-links">Uber Eats</a>
                 </li>
-                <li>
-                    <select name="About" id="about-nav">
-                        <option value="#" class="about-nav-header" hidden>About</option>
-                        <option value="about-us">About Us</option>
-                        <option value="our-offerings">Our offerings</option>
-                        <option value="uber-works">How Uber works</option>
-                        <option value="sustainability">Sustainability</option>
-                        <option value="explore">Explore</option>
-                        <option value="newsroom">Newsroom</option>
-                        <option value="investor">Investor Relations</option>
-                        <option value="autonomous">Autonomous</option>
-                        <option value="blog">Blog</option>
-                        <option value="careers">Careers</option>
-                    </select>
+                <li class="accordion-item">
+                    <button class="accordion-toggle">
+                        About
+                       <span class="chevron">⌄</span>
+                   </button>
+                   <ul class="accordion-panel">
+                       <li><a href="#">About us</a></li>
+                       <li><a href="#">Our offerings</a></li>
+                       <li><a href="#">How Uber works</a></li>
+                       <li><a href="#">Sustainability</a></li>
+                       <li><a href="#">Explore</a></li>
+                       <li><a href="#">Newsroom</a></li>
+                       <li><a href="#">Investor Relations</a></li>
+                       <li><a href="#">Autonomous</a></li>
+                       <li><a href="#">Blog</a></li>
+                       <li><a href="#">Careers</a></li>
+                    </ul>
                 </li>
                 
             </ul>
@@ -46,9 +50,13 @@
         <div class="nav-side-section">
             <button class="eng-button">EN</button>
             <a href="#" class="nav-side-links">Help</a>
-            <a href="#" class="nav-side-links">Log in</a>
+            <a href="#" class="nav-log-button">Log in</a>
             <button class="signup-button">Sign up</button>
         </div>
+        
+        <button class="mobile-button">☰</button>
+        <button class="close-button">✕</button>
+        
     </header>
 
     <main>
@@ -147,7 +155,7 @@
       <div class="log-in-section">
             <div class="log-in-text">
               <h2>Log in to see your account details</h2>
-              <p>View past trips, tailored suggestions, support resources, and <br> more.</p>
+              <p>View past trips, tailored suggestions, support resources, and more.</p>
               <div class="log-in-button">
                   <button>Log in to your account</button>
                   <a href="#">Create an account</a>
@@ -179,9 +187,9 @@
                 <div class="plan-right">
                     <h2>Benefits</h2>
                     <div class="plan-right-text">
-                        <p>Choose your exact pickup time up <br>to 90 days in advance.</p><hr>
-                        <p>Extra wait time included to meet <br> yout ride.</p><hr>
-                        <p>Cancel at no charge up to 60 <br> minutes in advance.</p>
+                        <p>Choose your exact pickup time up to 90 days in advance.</p><hr>
+                        <p>Extra wait time included to meet yout ride.</p><hr>
+                        <p>Cancel at no charge up to 60 minutes in advance.</p>
                     </div>
                     <a href="#">See terms</a>
                 </div>
@@ -190,8 +198,8 @@
 
        <div class="city-section">
           <div class="city-text">
-             <h2>Planning your next <br> getaway?</h2>
-             <p>From weekend road trip to international destination, we've got <br> you covered. Explore transport options, points of interest, and <br> more with our new City Hub</p>
+             <h2>Planning your next getaway?</h2>
+             <p>From weekend road trip to international destination, we've got you covered. Explore transport options, points of interest, and more with our new City Hub</p>
              <button>Accra</button>
           </div>
 
@@ -202,8 +210,8 @@
 
        <div class="drive-section">
          <div class="drive-text">
-             <h2>Drive when you want, make <br> what you need</h2>
-             <p>Make money on your schedule with deliveries or rides-or <br> both. You van use your own car or choose a rental through <br> Uber</p>
+             <h2>Drive when you want, make what you need</h2>
+             <p>Make money on your schedule with deliveries or rides-or both. You van use your own car or choose a rental through Uber</p>
              <button>Get Started</button>
              <a href="#">Already have an account? Sign in</a>
          </div>
@@ -215,8 +223,8 @@
 
        <div class="business-section">
             <div class="business-text">
-                <h2>The Uber you know, <br> reimagined for business</h2>
-                <p>Uber for Business is a platform for managing global rides and <br> meals, annd local deliveries, for companies of any size.</p>
+                <h2>The Uber you know, reimagined for business</h2>
+                <p>Uber for Business is a platform for managing global rides and meals, annd local deliveries, for companies of any size.</p>
                 <button>Get Started</button>
                 <a href="#">Check out our solutions</a>
             </div>
